@@ -2,7 +2,7 @@
 
 import pytest
 
-from .main import fibanocci
+from stripe_interview.fibanocci import fibanocci
 
 def test_fibanocci():
   assert fibanocci(0) == 0

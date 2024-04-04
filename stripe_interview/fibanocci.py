@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 
 def fibanocci(n: int) -> int:
+  if n < 0:
+    raise ValueError("n must be greater than or equal to 0")
+
   if n < 2:
     return n
 
